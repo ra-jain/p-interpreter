@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "timer.o" "config.o" "main.o" "uart0_driver.o" "uart1_driver.o" "lcd4bit_driver.o" "adc_driver.o" "lcd8bit_driver.o" --strict --scatter "all.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\all.map" -o "all.axf"

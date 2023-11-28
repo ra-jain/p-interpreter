@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'all.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"config.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"uart0_driver.o"'
+### List of Objects: adding '"uart1_driver.o"'
+### List of Objects: adding '"lcd4bit_driver.o"'
+### List of Objects: adding '"adc_driver.o"'
+### List of Objects: adding '"lcd8bit_driver.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "timer.o" "config.o" "main.o" "uart0_driver.o" "uart1_driver.o" "lcd4bit_driver.o" "adc_driver.o" "lcd8bit_driver.o" --strict --scatter "all.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\all.map" -o "all.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'all.axf'
+### ADS-LD Command File: 'all.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'all.lnp', Handle=0x0000041C
+### Writing '.lnp' file
+### ADS-LD Command file 'all.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
